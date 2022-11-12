@@ -1,6 +1,6 @@
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
-import MenuExampleBasic from './components/Menu';
+import Form from './components/Form';
 import Evento from './components/Evento';
 
 function App() {
@@ -10,13 +10,14 @@ function App() {
       <div>
         <h1>Estudos de React! Este é o Header</h1>    
       </div>
-
-      <div>
-        <MenuExampleBasic />
-      </div>
-      <Evento />
-      </header>
       
+
+      
+      </header>
+      <div>
+      <Evento />
+      <Form />
+      </div>
     </div>
   );
 }
