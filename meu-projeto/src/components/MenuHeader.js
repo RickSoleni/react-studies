@@ -12,24 +12,24 @@ export default class MenuHeader extends Component {
     return (
       <Menu>
         <Menu.Item
-          name='editorials'
-          active={activeItem === 'editorials'}
+          name='firstitem'
+          active={activeItem === 'firstitem'}
           onClick={this.handleItemClick}
         >
           Primeiro Item
         </Menu.Item>
 
         <Menu.Item
-          name='reviews'
-          active={activeItem === 'reviews'}
+          name='seconditem'
+          active={activeItem === 'seconditem'}
           onClick={this.handleItemClick}
         >
           Segundo Item
         </Menu.Item>
 
         <Menu.Item
-          name='upcomingEvents'
-          active={activeItem === 'upcomingEvents'}
+          name='thirditem'
+          active={activeItem === 'thirditem'}
           onClick={this.handleItemClick}
         >
           Terceiro Item
